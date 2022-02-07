@@ -1,0 +1,1427 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/amolg/ontologies/2021/11/untitled-ontology-17"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/amolg/ontologies/2021/11/untitled-ontology-17">
+    <Prefix name="" IRI="http://www.semanticweb.org/amolg/ontologies/2021/11/untitled-ontology-17"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#APPROVING_OFFICIAL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AWARD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CATEGORY1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CATEGORY2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CATEGORY3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NON_APPROVING_OFFICIAL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PAYMENT_REQUEST_DOCUMENT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PRESIDENT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PROCUREMENT_CARD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PROVOST"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UNIVERSITY_EMPLOYEE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UNIVERSITY_FINANCIAL_SERVICES"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#approvedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#approves"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#approvesReport"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ownedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#owns"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#purchaseByCard"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#purchaseByPrd"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#purchaseViaCard"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#purchaseViaPrd"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#submits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#submittedBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#approverId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#approverType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#awardId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cardNo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cardNoAward"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cardholderName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cardholdingStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#category"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#criteria"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#departmentName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#employeeIdAo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#employeeIdNao"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#employeeIdUe"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#employeeidPc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#employeetype"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#prdTransactionId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#purchaserType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#purpose"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#requestId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#requestIdUfs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#requestType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sourceOfFunds"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#spendLimit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#submitterId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#transactionId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#typeNpo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#validityDuration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ApprovingOfficial1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Award1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Award2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Award6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Award7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#John"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pocurementcard4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prd1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Procurementcard1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Procurementcard2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Procurementcard3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Procurementcard5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFS1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#award5"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#APPROVING_OFFICIAL"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#approvesReport"/>
+            <Class IRI="#AWARD"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#AWARD"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#purchaseByCard"/>
+            <Class IRI="#PROCUREMENT_CARD"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CATEGORY1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#purchaseByCard"/>
+            <Class IRI="#PROCUREMENT_CARD"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CATEGORY2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#purchaseByPrd"/>
+            <Class IRI="#PAYMENT_REQUEST_DOCUMENT"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PAYMENT_REQUEST_DOCUMENT"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#submittedBy"/>
+            <Class IRI="#UNIVERSITY_EMPLOYEE"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PROCUREMENT_CARD"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#ownedBy"/>
+            <Class IRI="#UNIVERSITY_EMPLOYEE"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PROVOST"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#approvesReport"/>
+            <Class IRI="#CATEGORY3"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UNIVERSITY_EMPLOYEE"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#owns"/>
+            <Class IRI="#PROCUREMENT_CARD"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UNIVERSITY_FINANCIAL_SERVICES"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#approves"/>
+            <Class IRI="#PROCUREMENT_CARD"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#APPROVING_OFFICIAL"/>
+        <Class IRI="#UNIVERSITY_EMPLOYEE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CATEGORY1"/>
+        <Class IRI="#AWARD"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CATEGORY2"/>
+        <Class IRI="#AWARD"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CATEGORY3"/>
+        <Class IRI="#AWARD"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NON_APPROVING_OFFICIAL"/>
+        <Class IRI="#UNIVERSITY_EMPLOYEE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PRESIDENT"/>
+        <Class IRI="#APPROVING_OFFICIAL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PROVOST"/>
+        <Class IRI="#APPROVING_OFFICIAL"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#APPROVING_OFFICIAL"/>
+        <Class IRI="#NON_APPROVING_OFFICIAL"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AWARD"/>
+        <Class IRI="#PAYMENT_REQUEST_DOCUMENT"/>
+        <Class IRI="#PROCUREMENT_CARD"/>
+        <Class IRI="#UNIVERSITY_EMPLOYEE"/>
+        <Class IRI="#UNIVERSITY_FINANCIAL_SERVICES"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#APPROVING_OFFICIAL"/>
+        <NamedIndividual IRI="#ApprovingOfficial1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AWARD"/>
+        <NamedIndividual IRI="#Award1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AWARD"/>
+        <NamedIndividual IRI="#Award2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AWARD"/>
+        <NamedIndividual IRI="#Award6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CATEGORY3"/>
+        <NamedIndividual IRI="#Award7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UNIVERSITY_EMPLOYEE"/>
+        <NamedIndividual IRI="#John"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UNIVERSITY_EMPLOYEE"/>
+        <NamedIndividual IRI="#Mary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PROCUREMENT_CARD"/>
+        <NamedIndividual IRI="#Pocurementcard4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PAYMENT_REQUEST_DOCUMENT"/>
+        <NamedIndividual IRI="#Prd1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PROCUREMENT_CARD"/>
+        <NamedIndividual IRI="#Procurementcard1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PROCUREMENT_CARD"/>
+        <NamedIndividual IRI="#Procurementcard2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PROCUREMENT_CARD"/>
+        <NamedIndividual IRI="#Procurementcard3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PROCUREMENT_CARD"/>
+        <NamedIndividual IRI="#Procurementcard5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UNIVERSITY_FINANCIAL_SERVICES"/>
+        <NamedIndividual IRI="#UFS1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AWARD"/>
+        <NamedIndividual IRI="#award5"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#approvesReport"/>
+        <NamedIndividual IRI="#ApprovingOfficial1"/>
+        <NamedIndividual IRI="#Award7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#purchaseByCard"/>
+        <NamedIndividual IRI="#Award2"/>
+        <NamedIndividual IRI="#Procurementcard3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#purchaseByPrd"/>
+        <NamedIndividual IRI="#Award6"/>
+        <NamedIndividual IRI="#Prd1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#approvesReport"/>
+        <NamedIndividual IRI="#John"/>
+        <NamedIndividual IRI="#Award1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#owns"/>
+        <NamedIndividual IRI="#Mary"/>
+        <NamedIndividual IRI="#Procurementcard1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#approves"/>
+        <NamedIndividual IRI="#UFS1"/>
+        <NamedIndividual IRI="#Procurementcard2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#purchaseByCard"/>
+        <NamedIndividual IRI="#award5"/>
+        <NamedIndividual IRI="#Procurementcard5"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#approverType"/>
+        <NamedIndividual IRI="#ApprovingOfficial1"/>
+        <Literal>Provost</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#approverId"/>
+        <NamedIndividual IRI="#Award1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">02</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#awardId"/>
+        <NamedIndividual IRI="#Award1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">43222</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cardNoAward"/>
+        <NamedIndividual IRI="#Award1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">122222</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#category"/>
+        <NamedIndividual IRI="#Award1"/>
+        <Literal>general</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#criteria"/>
+        <NamedIndividual IRI="#Award1"/>
+        <Literal>academics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Award1"/>
+        <Literal>thisawardhasbeengrnted</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#prdTransactionId"/>
+        <NamedIndividual IRI="#Award1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#purchaserType"/>
+        <NamedIndividual IRI="#Award1"/>
+        <Literal>card</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#purpose"/>
+        <NamedIndividual IRI="#Award1"/>
+        <Literal>recognitionofperformance</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sourceOfFunds"/>
+        <NamedIndividual IRI="#Award1"/>
+        <Literal>restricted</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Award1"/>
+        <Literal>gift</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#value"/>
+        <NamedIndividual IRI="#Award1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">670</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#approverId"/>
+        <NamedIndividual IRI="#Award2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#awardId"/>
+        <NamedIndividual IRI="#Award2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4321</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cardNoAward"/>
+        <NamedIndividual IRI="#Award2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1234</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#category"/>
+        <NamedIndividual IRI="#Award2"/>
+        <Literal>general</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#criteria"/>
+        <NamedIndividual IRI="#Award2"/>
+        <Literal>academics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Award2"/>
+        <Literal>thisawardhasbeengrnted</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#prdTransactionId"/>
+        <NamedIndividual IRI="#Award2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#purchaserType"/>
+        <NamedIndividual IRI="#Award2"/>
+        <Literal>card</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#purpose"/>
+        <NamedIndividual IRI="#Award2"/>
+        <Literal>recognitionofperformance</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sourceOfFunds"/>
+        <NamedIndividual IRI="#Award2"/>
+        <Literal>restricted</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Award2"/>
+        <Literal>gift</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#value"/>
+        <NamedIndividual IRI="#Award2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#approverId"/>
+        <NamedIndividual IRI="#Award6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">02</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#awardId"/>
+        <NamedIndividual IRI="#Award6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">43222</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cardNoAward"/>
+        <NamedIndividual IRI="#Award6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">122222</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#category"/>
+        <NamedIndividual IRI="#Award6"/>
+        <Literal>general</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#criteria"/>
+        <NamedIndividual IRI="#Award6"/>
+        <Literal>academics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Award6"/>
+        <Literal>thisawardhasbeengrnted</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#prdTransactionId"/>
+        <NamedIndividual IRI="#Award6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#purchaserType"/>
+        <NamedIndividual IRI="#Award6"/>
+        <Literal>card</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#purpose"/>
+        <NamedIndividual IRI="#Award6"/>
+        <Literal>recognitionofperformance</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sourceOfFunds"/>
+        <NamedIndividual IRI="#Award6"/>
+        <Literal>restricted</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Award6"/>
+        <Literal>gift</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#value"/>
+        <NamedIndividual IRI="#Award6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">670</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#approverId"/>
+        <NamedIndividual IRI="#Award7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">02</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#awardId"/>
+        <NamedIndividual IRI="#Award7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">43222</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cardNoAward"/>
+        <NamedIndividual IRI="#Award7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">122222</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#category"/>
+        <NamedIndividual IRI="#Award7"/>
+        <Literal>general</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#criteria"/>
+        <NamedIndividual IRI="#Award7"/>
+        <Literal>academics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Award7"/>
+        <Literal>thisawardhasbeengrnted</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#prdTransactionId"/>
+        <NamedIndividual IRI="#Award7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#purchaserType"/>
+        <NamedIndividual IRI="#Award7"/>
+        <Literal>card</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#purpose"/>
+        <NamedIndividual IRI="#Award7"/>
+        <Literal>recognitionofperformance</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sourceOfFunds"/>
+        <NamedIndividual IRI="#Award7"/>
+        <Literal>restricted</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Award7"/>
+        <Literal>gift</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#value"/>
+        <NamedIndividual IRI="#Award7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">670</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#approverType"/>
+        <NamedIndividual IRI="#John"/>
+        <Literal>Dean</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cardholdingStatus"/>
+        <NamedIndividual IRI="#John"/>
+        <Literal>Yes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#departmentName"/>
+        <NamedIndividual IRI="#John"/>
+        <Literal>InformationSciences</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#employeeIdUe"/>
+        <NamedIndividual IRI="#John"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">101</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#employeetype"/>
+        <NamedIndividual IRI="#John"/>
+        <Literal>approving_official</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cardholdingStatus"/>
+        <NamedIndividual IRI="#Mary"/>
+        <Literal>yes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#departmentName"/>
+        <NamedIndividual IRI="#Mary"/>
+        <Literal>ComputerScience</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#employeeIdUe"/>
+        <NamedIndividual IRI="#Mary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">102</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#employeetype"/>
+        <NamedIndividual IRI="#Mary"/>
+        <Literal>Admin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#typeNpo"/>
+        <NamedIndividual IRI="#Mary"/>
+        <Literal>Cardholder</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cardNo"/>
+        <NamedIndividual IRI="#Pocurementcard4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3546</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cardholderName"/>
+        <NamedIndividual IRI="#Pocurementcard4"/>
+        <Literal>Kate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#employeeidPc"/>
+        <NamedIndividual IRI="#Pocurementcard4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">05</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requestId"/>
+        <NamedIndividual IRI="#Pocurementcard4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2121</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#spendLimit"/>
+        <NamedIndividual IRI="#Pocurementcard4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#validityDuration"/>
+        <NamedIndividual IRI="#Pocurementcard4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#submitterId"/>
+        <NamedIndividual IRI="#Prd1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">212</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#transactionId"/>
+        <NamedIndividual IRI="#Prd1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">121</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cardNo"/>
+        <NamedIndividual IRI="#Procurementcard1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3546</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cardholderName"/>
+        <NamedIndividual IRI="#Procurementcard1"/>
+        <Literal>Kate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#employeeidPc"/>
+        <NamedIndividual IRI="#Procurementcard1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">05</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requestId"/>
+        <NamedIndividual IRI="#Procurementcard1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2121</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#spendLimit"/>
+        <NamedIndividual IRI="#Procurementcard1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#validityDuration"/>
+        <NamedIndividual IRI="#Procurementcard1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cardNo"/>
+        <NamedIndividual IRI="#Procurementcard2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3546</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cardholderName"/>
+        <NamedIndividual IRI="#Procurementcard2"/>
+        <Literal>Kate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#employeeidPc"/>
+        <NamedIndividual IRI="#Procurementcard2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">05</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requestId"/>
+        <NamedIndividual IRI="#Procurementcard2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2121</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#spendLimit"/>
+        <NamedIndividual IRI="#Procurementcard2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#validityDuration"/>
+        <NamedIndividual IRI="#Procurementcard2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cardNo"/>
+        <NamedIndividual IRI="#Procurementcard3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3546</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cardholderName"/>
+        <NamedIndividual IRI="#Procurementcard3"/>
+        <Literal>Kate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#employeeidPc"/>
+        <NamedIndividual IRI="#Procurementcard3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">05</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requestId"/>
+        <NamedIndividual IRI="#Procurementcard3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2121</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#spendLimit"/>
+        <NamedIndividual IRI="#Procurementcard3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#validityDuration"/>
+        <NamedIndividual IRI="#Procurementcard3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cardNo"/>
+        <NamedIndividual IRI="#Procurementcard5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3546</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cardholderName"/>
+        <NamedIndividual IRI="#Procurementcard5"/>
+        <Literal>Kate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#employeeidPc"/>
+        <NamedIndividual IRI="#Procurementcard5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">05</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requestId"/>
+        <NamedIndividual IRI="#Procurementcard5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2121</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#spendLimit"/>
+        <NamedIndividual IRI="#Procurementcard5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#validityDuration"/>
+        <NamedIndividual IRI="#Procurementcard5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requestIdUfs"/>
+        <NamedIndividual IRI="#UFS1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requestType"/>
+        <NamedIndividual IRI="#UFS1"/>
+        <Literal>card</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#approverId"/>
+        <NamedIndividual IRI="#award5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">02</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#awardId"/>
+        <NamedIndividual IRI="#award5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">43222</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cardNoAward"/>
+        <NamedIndividual IRI="#award5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">122222</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#category"/>
+        <NamedIndividual IRI="#award5"/>
+        <Literal>general</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#criteria"/>
+        <NamedIndividual IRI="#award5"/>
+        <Literal>academics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#award5"/>
+        <Literal>thisawardhasbeengrnted</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#prdTransactionId"/>
+        <NamedIndividual IRI="#award5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#purchaserType"/>
+        <NamedIndividual IRI="#award5"/>
+        <Literal>card</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#purpose"/>
+        <NamedIndividual IRI="#award5"/>
+        <Literal>recognitionofperformance</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sourceOfFunds"/>
+        <NamedIndividual IRI="#award5"/>
+        <Literal>restricted</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#award5"/>
+        <Literal>gift</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#value"/>
+        <NamedIndividual IRI="#award5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">670</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#approves"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#approvesReport"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#owns"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#purchaseByCard"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#purchaseViaCard"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#purchaseViaPrd"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#submits"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#submittedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#approvedBy"/>
+        <ObjectProperty IRI="#approves"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ownedBy"/>
+        <ObjectProperty IRI="#owns"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#purchaseByCard"/>
+        <ObjectProperty IRI="#purchaseViaCard"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#purchaseByPrd"/>
+        <ObjectProperty IRI="#purchaseViaPrd"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#submits"/>
+        <ObjectProperty IRI="#submittedBy"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#approves"/>
+        <Class IRI="#UNIVERSITY_FINANCIAL_SERVICES"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#approvesReport"/>
+        <Class IRI="#APPROVING_OFFICIAL"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#owns"/>
+        <Class IRI="#UNIVERSITY_EMPLOYEE"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#purchaseViaCard"/>
+        <Class IRI="#PROCUREMENT_CARD"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#purchaseViaPrd"/>
+        <Class IRI="#PAYMENT_REQUEST_DOCUMENT"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#submits"/>
+        <Class IRI="#UNIVERSITY_EMPLOYEE"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#approves"/>
+        <Class IRI="#PROCUREMENT_CARD"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#approvesReport"/>
+        <Class IRI="#AWARD"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#owns"/>
+        <Class IRI="#PROCUREMENT_CARD"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#purchaseViaCard"/>
+        <Class IRI="#AWARD"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#purchaseViaPrd"/>
+        <Class IRI="#AWARD"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#submits"/>
+        <Class IRI="#PAYMENT_REQUEST_DOCUMENT"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#approvedBy"/>
+        <ObjectProperty IRI="#approves"/>
+        <ObjectProperty IRI="#approvesReport"/>
+        <ObjectProperty IRI="#ownedBy"/>
+        <ObjectProperty IRI="#owns"/>
+        <ObjectProperty IRI="#purchaseByCard"/>
+        <ObjectProperty IRI="#purchaseByPrd"/>
+        <ObjectProperty IRI="#purchaseViaCard"/>
+        <ObjectProperty IRI="#purchaseViaPrd"/>
+        <ObjectProperty IRI="#submits"/>
+        <ObjectProperty IRI="#submittedBy"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#approves"/>
+        <ObjectProperty IRI="#approvesReport"/>
+        <ObjectProperty IRI="#owns"/>
+        <ObjectProperty IRI="#purchaseViaCard"/>
+        <ObjectProperty IRI="#purchaseViaPrd"/>
+        <ObjectProperty IRI="#submits"/>
+    </DisjointObjectProperties>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#approverId"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#approverType"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#awardId"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cardNo"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cardNoAward"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cardholderName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#cardholdingStatus"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#category"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#criteria"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#departmentName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#description"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#employeeIdAo"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#employeeIdNao"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#employeeIdUe"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#employeeidPc"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#employeetype"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#prdTransactionId"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#purchaserType"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#purpose"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#requestId"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#requestIdUfs"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#requestType"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#sourceOfFunds"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#spendLimit"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#submitterId"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#transactionId"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#type"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#typeNpo"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#validityDuration"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#value"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#approverId"/>
+        <Class IRI="#AWARD"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#approverType"/>
+        <Class IRI="#APPROVING_OFFICIAL"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#awardId"/>
+        <Class IRI="#AWARD"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cardNo"/>
+        <Class IRI="#PROCUREMENT_CARD"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cardNoAward"/>
+        <Class IRI="#AWARD"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cardholderName"/>
+        <Class IRI="#PROCUREMENT_CARD"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cardholdingStatus"/>
+        <Class IRI="#UNIVERSITY_EMPLOYEE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#category"/>
+        <Class IRI="#AWARD"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#criteria"/>
+        <Class IRI="#AWARD"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#departmentName"/>
+        <Class IRI="#UNIVERSITY_EMPLOYEE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class IRI="#AWARD"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#employeeIdAo"/>
+        <Class IRI="#APPROVING_OFFICIAL"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#employeeIdNao"/>
+        <Class IRI="#NON_APPROVING_OFFICIAL"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#employeeIdUe"/>
+        <Class IRI="#UNIVERSITY_EMPLOYEE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#employeeidPc"/>
+        <Class IRI="#PROCUREMENT_CARD"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#employeetype"/>
+        <Class IRI="#UNIVERSITY_EMPLOYEE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#prdTransactionId"/>
+        <Class IRI="#AWARD"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#purchaserType"/>
+        <Class IRI="#AWARD"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#purpose"/>
+        <Class IRI="#AWARD"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requestId"/>
+        <Class IRI="#PROCUREMENT_CARD"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requestIdUfs"/>
+        <Class IRI="#UNIVERSITY_FINANCIAL_SERVICES"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requestType"/>
+        <Class IRI="#UNIVERSITY_FINANCIAL_SERVICES"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sourceOfFunds"/>
+        <Class IRI="#AWARD"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#spendLimit"/>
+        <Class IRI="#PROCUREMENT_CARD"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#submitterId"/>
+        <Class IRI="#PAYMENT_REQUEST_DOCUMENT"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#transactionId"/>
+        <Class IRI="#PAYMENT_REQUEST_DOCUMENT"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#type"/>
+        <Class IRI="#AWARD"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#typeNpo"/>
+        <Class IRI="#NON_APPROVING_OFFICIAL"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#validityDuration"/>
+        <Class IRI="#PROCUREMENT_CARD"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#value"/>
+        <Class IRI="#AWARD"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#approverId"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#approverType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#awardId"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cardNo"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cardNoAward"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cardholderName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cardholdingStatus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#category"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#criteria"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#departmentName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#employeeIdAo"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#employeeIdNao"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#employeeIdUe"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#employeeidPc"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#employeetype"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#prdTransactionId"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#purchaserType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#purpose"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#requestId"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#requestIdUfs"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#requestType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sourceOfFunds"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#spendLimit"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#submitterId"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#transactionId"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#typeNpo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#validityDuration"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#value"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

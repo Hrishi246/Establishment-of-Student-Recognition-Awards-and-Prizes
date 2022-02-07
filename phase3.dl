@@ -1,0 +1,36 @@
+%Adding assertions in knowledge base
+universityemployee(1,'Approving','False','Information Sciences').
+universityemployee(2,'Approving','False','Mechanical Sciences').
+universityemployee(3,'Non-Approving','True','Computer Sciences').
+universityemployee(4,'Approving','True','Information Sciences').
+universityemployee(5,'Non-Approving','False','Information Sciences').
+approvingofficial(1,'Dean').
+approvingofficial(2,'President').
+approvingofficial(4,'Provost').
+nonapprovingofficial(3,'Business Officer').
+nonapprovingofficial(5,'Supervisor').
+universityfinancialservices(10000,'Procurement Card').
+universityfinancialservices(10001,'Procurement Card').
+universityfinancialservices(10002,'Procurement Card').
+universityfinancialservices(10003,'Procurement Card').
+universityfinancialservices(10004,'Procurement Card').
+procurementcard(1000,'John',200,'15th Oct 2023',1,10000).
+procurementcard(1001,'Jack',300,'20th Oct 2024',2,10001).
+procurementcard(1002,'Ursula',400,'20th Sep 2024',3,10002).
+procurementcard(1003,'Annie',350,'11th Jun 2026',4,10003).
+procurementcard(1004,'Owen',300,'08th Apr 2024',5,10004).
+paymentrequestdocument(1000001,3).
+paymentrequestdocument(1000002,5).
+award(100,'Social Development','Unrestricted General funds','Restricted','Academics',60,'This award has been granted','gift',1000,1,'Card',NULL).
+award(101,'Cultural Development','Self Supported','Unrestricted','Non-Academics',30,'This award has been granted','cash',1001,2,'Card',NULL).
+award(102,'Intellectual Development','Restricted gifts','Restricted','Academics',40,'This award has been granted','plaque',1002,1,'Card',NULL).
+award(103,'Social Development','Unrestricted General funds','Restricted','Non-Academics',80,'This award has been granted','gift',1000,4,'Card',NULL).
+award(104,'Cultural Development','Self supported','Unrestricted','Non-Academics',35,'This award has been granted','cash',1003,2,'Card',NULL).
+award(105,'Social Development','Unrestricted General funds','Restricted','Academics',60,'This award has been granted','gift',NULL,1,'PRD',1000001).
+award(106,'Cultural Development','Self Supported','Unrestricted','Non-Academics',30,'This award has been granted','cash',NULL,2,'PRD',1000002).
+
+%four Inference rules
+cardinfo(X,Y,Z):-procurementcard(X,Y,_,_,E,_),approvingofficial(E,Z),universityemployee(E,_,'True',_).
+listcardnumbers(X,Y):-universityemployee(X,_,_,'Information Sciences'),procurementcard(_,Y,_,_,X,_).
+expirationdates(X,Y,Z,W):- nonapprovingofficial(X,Y),procurementcard(_,Z,_,W,X,_).
+awardinfo(X,Y,Z,W):-award(X,_,_,_,_,Y,_,_,_,W,'Card',_),approvingofficial(W,Z).
